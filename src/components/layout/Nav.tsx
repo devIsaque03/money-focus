@@ -1,12 +1,26 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+
+// import Container from './Container'
+
 import "./Nav.css"
+// import Button from "../Button";
+// {/* <Button className="Home" text="Home" se={false} /> */}
 
 function Nav() {
 
     return (
-        <div className="nav">
-            <h1 className="nav_title">É só o começo</h1>
-        </div>
+        <nav>
+                <Link to="/">
+                    Money focus
+                </Link>
+                <Link to="/">Home</Link>
+                <Link to="/">Saldo</Link>
+                <Link to="/">Extrato</Link>
+                <Link to="/">Home</Link>
+                <Link to="/">Home</Link>
+                <Link to="/">Home</Link>
+        </nav>
     )
 }
 

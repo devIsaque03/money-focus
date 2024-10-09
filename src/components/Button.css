@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Button {
+    background-color: white;
+    border: none;
+    background-color: rgb(7, 192, 78);
+    height: 59px;
+    color: white;
+    font-size: 20px;
+}
+
+.Button:hover {
+    border-bottom: 5px solid white;
+    font-weight: bold;
+}
+
+.hover {
+    border-bottom: 5px solid white;
+    font-weight: bold;
+}
+
+.Home {
+    width: 60px;
+}
+
+.Saldo {
+    width: 60px;
+}
+
+.Extrato {
+    width: 70px;
+}
+
+.Metas {
+    width: 60px;
+}
+
+.Investimentos {
+    width: 135px;
+}
+
+.Simulacao {
+    width: 100px;
+}
